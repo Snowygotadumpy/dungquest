@@ -16,7 +16,7 @@ getgenv().Settings = {
         HideNameplate = false,
         
         Configuration = {
-            Hardcore = true,
+            Hardcore = false,
             AutoSelectHighest = true,
             WaveDefense = false
         },
@@ -280,3 +280,5 @@ getgenv().Settings = {
         Url = "https://discord.com/api/webhooks/"
     }
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/SpooderQuestRewritten/main/TextScript.lua"))()
